@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC89FF80198AFFE300B8E0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */; };
+		FC89FF82198AFFE300B8E0A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF81198AFFE300B8E0A4 /* CoreGraphics.framework */; };
+		FC89FF84198AFFE300B8E0A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF83198AFFE300B8E0A4 /* UIKit.framework */; };
+		FC89FF8A198AFFE300B8E0A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC89FF88198AFFE300B8E0A4 /* InfoPlist.strings */; };
+		FC89FF8C198AFFE300B8E0A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89FF8B198AFFE300B8E0A4 /* main.m */; };
+		FC89FF90198AFFE300B8E0A4 /* ofertaappAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89FF8F198AFFE300B8E0A4 /* ofertaappAppDelegate.m */; };
+		FC89FF93198AFFE300B8E0A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC89FF91198AFFE300B8E0A4 /* Main.storyboard */; };
+		FC89FF96198AFFE300B8E0A4 /* ofertaappViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89FF95198AFFE300B8E0A4 /* ofertaappViewController.m */; };
+		FC89FF98198AFFE300B8E0A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC89FF97198AFFE300B8E0A4 /* Images.xcassets */; };
+		FC89FF9F198AFFE400B8E0A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF9E198AFFE400B8E0A4 /* XCTest.framework */; };
+		FC89FFA0198AFFE400B8E0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */; };
+		FC89FFA1198AFFE400B8E0A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF83198AFFE300B8E0A4 /* UIKit.framework */; };
+		FC89FFA9198AFFE400B8E0A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC89FFA7198AFFE400B8E0A4 /* InfoPlist.strings */; };
+		FC89FFAB198AFFE400B8E0A4 /* ofertaappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89FFAA198AFFE400B8E0A4 /* ofertaappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC89FFA2198AFFE400B8E0A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC89FF74198AFFE300B8E0A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC89FF7B198AFFE300B8E0A4;
+			remoteInfo = ofertaapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC89FF7C198AFFE300B8E0A4 /* ofertaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofertaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC89FF81198AFFE300B8E0A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC89FF83198AFFE300B8E0A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC89FF87198AFFE300B8E0A4 /* ofertaapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ofertaapp-Info.plist"; sourceTree = "<group>"; };
+		FC89FF89198AFFE300B8E0A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC89FF8B198AFFE300B8E0A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC89FF8D198AFFE300B8E0A4 /* ofertaapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ofertaapp-Prefix.pch"; sourceTree = "<group>"; };
+		FC89FF8E198AFFE300B8E0A4 /* ofertaappAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofertaappAppDelegate.h; sourceTree = "<group>"; };
+		FC89FF8F198AFFE300B8E0A4 /* ofertaappAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ofertaappAppDelegate.m; sourceTree = "<group>"; };
+		FC89FF92198AFFE300B8E0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC89FF94198AFFE300B8E0A4 /* ofertaappViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofertaappViewController.h; sourceTree = "<group>"; };
+		FC89FF95198AFFE300B8E0A4 /* ofertaappViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ofertaappViewController.m; sourceTree = "<group>"; };
+		FC89FF97198AFFE300B8E0A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC89FF9D198AFFE400B8E0A4 /* ofertaappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ofertaappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC89FF9E198AFFE400B8E0A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC89FFA6198AFFE400B8E0A4 /* ofertaappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ofertaappTests-Info.plist"; sourceTree = "<group>"; };
+		FC89FFA8198AFFE400B8E0A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC89FFAA198AFFE400B8E0A4 /* ofertaappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ofertaappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC89FF79198AFFE300B8E0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC89FF82198AFFE300B8E0A4 /* CoreGraphics.framework in Frameworks */,
+				FC89FF84198AFFE300B8E0A4 /* UIKit.framework in Frameworks */,
+				FC89FF80198AFFE300B8E0A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89FF9A198AFFE400B8E0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC89FF9F198AFFE400B8E0A4 /* XCTest.framework in Frameworks */,
+				FC89FFA1198AFFE400B8E0A4 /* UIKit.framework in Frameworks */,
+				FC89FFA0198AFFE400B8E0A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC89FF73198AFFE300B8E0A4 = {
+			isa = PBXGroup;
+			children = (
+				FC89FF85198AFFE300B8E0A4 /* ofertaapp */,
+				FC89FFA4198AFFE400B8E0A4 /* ofertaappTests */,
+				FC89FF7E198AFFE300B8E0A4 /* Frameworks */,
+				FC89FF7D198AFFE300B8E0A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC89FF7D198AFFE300B8E0A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC89FF7C198AFFE300B8E0A4 /* ofertaapp.app */,
+				FC89FF9D198AFFE400B8E0A4 /* ofertaappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC89FF7E198AFFE300B8E0A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */,
+				FC89FF81198AFFE300B8E0A4 /* CoreGraphics.framework */,
+				FC89FF83198AFFE300B8E0A4 /* UIKit.framework */,
+				FC89FF9E198AFFE400B8E0A4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC89FF85198AFFE300B8E0A4 /* ofertaapp */ = {
+			isa = PBXGroup;
+			children = (
+				FC89FF8E198AFFE300B8E0A4 /* ofertaappAppDelegate.h */,
+				FC89FF8F198AFFE300B8E0A4 /* ofertaappAppDelegate.m */,
+				FC89FF91198AFFE300B8E0A4 /* Main.storyboard */,
+				FC89FF94198AFFE300B8E0A4 /* ofertaappViewController.h */,
+				FC89FF95198AFFE300B8E0A4 /* ofertaappViewController.m */,
+				FC89FF97198AFFE300B8E0A4 /* Images.xcassets */,
+				FC89FF86198AFFE300B8E0A4 /* Supporting Files */,
+			);
+			path = ofertaapp;
+			sourceTree = "<group>";
+		};
+		FC89FF86198AFFE300B8E0A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC89FF87198AFFE300B8E0A4 /* ofertaapp-Info.plist */,
+				FC89FF88198AFFE300B8E0A4 /* InfoPlist.strings */,
+				FC89FF8B198AFFE300B8E0A4 /* main.m */,
+				FC89FF8D198AFFE300B8E0A4 /* ofertaapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC89FFA4198AFFE400B8E0A4 /* ofertaappTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC89FFAA198AFFE400B8E0A4 /* ofertaappTests.m */,
+				FC89FFA5198AFFE400B8E0A4 /* Supporting Files */,
+			);
+			path = ofertaappTests;
+			sourceTree = "<group>";
+		};
+		FC89FFA5198AFFE400B8E0A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC89FFA6198AFFE400B8E0A4 /* ofertaappTests-Info.plist */,
+				FC89FFA7198AFFE400B8E0A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC89FF7B198AFFE300B8E0A4 /* ofertaapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89FFAE198AFFE400B8E0A4 /* Build configuration list for PBXNativeTarget "ofertaapp" */;
+			buildPhases = (
+				FC89FF78198AFFE300B8E0A4 /* Sources */,
+				FC89FF79198AFFE300B8E0A4 /* Frameworks */,
+				FC89FF7A198AFFE300B8E0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ofertaapp;
+			productName = ofertaapp;
+			productReference = FC89FF7C198AFFE300B8E0A4 /* ofertaapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC89FF9C198AFFE400B8E0A4 /* ofertaappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89FFB1198AFFE400B8E0A4 /* Build configuration list for PBXNativeTarget "ofertaappTests" */;
+			buildPhases = (
+				FC89FF99198AFFE400B8E0A4 /* Sources */,
+				FC89FF9A198AFFE400B8E0A4 /* Frameworks */,
+				FC89FF9B198AFFE400B8E0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC89FFA3198AFFE400B8E0A4 /* PBXTargetDependency */,
+			);
+			name = ofertaappTests;
+			productName = ofertaappTests;
+			productReference = FC89FF9D198AFFE400B8E0A4 /* ofertaappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC89FF74198AFFE300B8E0A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ofertaapp;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = COOL4CODE;
+				TargetAttributes = {
+					FC89FF9C198AFFE400B8E0A4 = {
+						TestTargetID = FC89FF7B198AFFE300B8E0A4;
+					};
+				};
+			};
+			buildConfigurationList = FC89FF77198AFFE300B8E0A4 /* Build configuration list for PBXProject "ofertaapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC89FF73198AFFE300B8E0A4;
+			productRefGroup = FC89FF7D198AFFE300B8E0A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC89FF7B198AFFE300B8E0A4 /* ofertaapp */,
+				FC89FF9C198AFFE400B8E0A4 /* ofertaappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC89FF7A198AFFE300B8E0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC89FF98198AFFE300B8E0A4 /* Images.xcassets in Resources */,
+				FC89FF8A198AFFE300B8E0A4 /* InfoPlist.strings in Resources */,
+				FC89FF93198AFFE300B8E0A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89FF9B198AFFE400B8E0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC89FFA9198AFFE400B8E0A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC89FF78198AFFE300B8E0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC89FF96198AFFE300B8E0A4 /* ofertaappViewController.m in Sources */,
+				FC89FF8C198AFFE300B8E0A4 /* main.m in Sources */,
+				FC89FF90198AFFE300B8E0A4 /* ofertaappAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89FF99198AFFE400B8E0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC89FFAB198AFFE400B8E0A4 /* ofertaappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC89FFA3198AFFE400B8E0A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC89FF7B198AFFE300B8E0A4 /* ofertaapp */;
+			targetProxy = FC89FFA2198AFFE400B8E0A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC89FF88198AFFE300B8E0A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC89FF89198AFFE300B8E0A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC89FF91198AFFE300B8E0A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC89FF92198AFFE300B8E0A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC89FFA7198AFFE400B8E0A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC89FFA8198AFFE400B8E0A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC89FFAC198AFFE400B8E0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC89FFAD198AFFE400B8E0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC89FFAF198AFFE400B8E0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ofertaapp/ofertaapp-Prefix.pch";
+				INFOPLIST_FILE = "ofertaapp/ofertaapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC89FFB0198AFFE400B8E0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ofertaapp/ofertaapp-Prefix.pch";
+				INFOPLIST_FILE = "ofertaapp/ofertaapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC89FFB2198AFFE400B8E0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ofertaapp.app/ofertaapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ofertaapp/ofertaapp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ofertaappTests/ofertaappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC89FFB3198AFFE400B8E0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ofertaapp.app/ofertaapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ofertaapp/ofertaapp-Prefix.pch";
+				INFOPLIST_FILE = "ofertaappTests/ofertaappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC89FF77198AFFE300B8E0A4 /* Build configuration list for PBXProject "ofertaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89FFAC198AFFE400B8E0A4 /* Debug */,
+				FC89FFAD198AFFE400B8E0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89FFAE198AFFE400B8E0A4 /* Build configuration list for PBXNativeTarget "ofertaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89FFAF198AFFE400B8E0A4 /* Debug */,
+				FC89FFB0198AFFE400B8E0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC89FFB1198AFFE400B8E0A4 /* Build configuration list for PBXNativeTarget "ofertaappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89FFB2198AFFE400B8E0A4 /* Debug */,
+				FC89FFB3198AFFE400B8E0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC89FF74198AFFE300B8E0A4 /* Project object */;
+}
