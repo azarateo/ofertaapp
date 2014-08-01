@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC269965198B11E700F4D7A7 /* MPSkewedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26995E198B11E700F4D7A7 /* MPSkewedCell.m */; };
+		FC269966198B11E700F4D7A7 /* MPSkewedParallaxLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC269960198B11E700F4D7A7 /* MPSkewedParallaxLayout.m */; };
+		FC269967198B11E700F4D7A7 /* MPSkewedTransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC269962198B11E700F4D7A7 /* MPSkewedTransitionLayout.m */; };
+		FC269968198B11E700F4D7A7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = FC269964198B11E700F4D7A7 /* UIView+Frame.m */; };
+		FC269975198B126400F4D7A7 /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC269973198B126400F4D7A7 /* MPViewController.m */; };
+		FC269980198B12A100F4D7A7 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC269977198B12A100F4D7A7 /* 1@2x.png */; };
+		FC269981198B12A100F4D7A7 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC269978198B12A100F4D7A7 /* 2@2x.png */; };
+		FC269982198B12A100F4D7A7 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC269979198B12A100F4D7A7 /* 3@2x.png */; };
+		FC269983198B12A100F4D7A7 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC26997A198B12A100F4D7A7 /* 4@2x.png */; };
+		FC269984198B12A100F4D7A7 /* 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC26997B198B12A100F4D7A7 /* 5@2x.png */; };
+		FC26998B198B15D000F4D7A7 /* ofertaappSeccionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26998A198B15D000F4D7A7 /* ofertaappSeccionViewController.m */; };
 		FC89FF80198AFFE300B8E0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */; };
 		FC89FF82198AFFE300B8E0A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF81198AFFE300B8E0A4 /* CoreGraphics.framework */; };
 		FC89FF84198AFFE300B8E0A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF83198AFFE300B8E0A4 /* UIKit.framework */; };
@@ -21,6 +32,9 @@
 		FC89FFA1198AFFE400B8E0A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF83198AFFE300B8E0A4 /* UIKit.framework */; };
 		FC89FFA9198AFFE400B8E0A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC89FFA7198AFFE400B8E0A4 /* InfoPlist.strings */; };
 		FC89FFAB198AFFE400B8E0A4 /* ofertaappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89FFAA198AFFE400B8E0A4 /* ofertaappTests.m */; };
+		FC89FFB5198B03A300B8E0A4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FFB4198B03A300B8E0A4 /* AVFoundation.framework */; };
+		FC89FFB7198B04FD00B8E0A4 /* xx.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC89FFB6198B04FD00B8E0A4 /* xx.mp4 */; };
+		FC89FFB9198B0B2000B8E0A4 /* Cogestor.png in Resources */ = {isa = PBXBuildFile; fileRef = FC89FFB8198B0B2000B8E0A4 /* Cogestor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC26995D198B11E700F4D7A7 /* MPSkewedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSkewedCell.h; sourceTree = "<group>"; };
+		FC26995E198B11E700F4D7A7 /* MPSkewedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSkewedCell.m; sourceTree = "<group>"; };
+		FC26995F198B11E700F4D7A7 /* MPSkewedParallaxLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSkewedParallaxLayout.h; sourceTree = "<group>"; };
+		FC269960198B11E700F4D7A7 /* MPSkewedParallaxLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSkewedParallaxLayout.m; sourceTree = "<group>"; };
+		FC269961198B11E700F4D7A7 /* MPSkewedTransitionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSkewedTransitionLayout.h; sourceTree = "<group>"; };
+		FC269962198B11E700F4D7A7 /* MPSkewedTransitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSkewedTransitionLayout.m; sourceTree = "<group>"; };
+		FC269963198B11E700F4D7A7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		FC269964198B11E700F4D7A7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		FC269972198B126400F4D7A7 /* MPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
+		FC269973198B126400F4D7A7 /* MPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
+		FC269977198B12A100F4D7A7 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		FC269978198B12A100F4D7A7 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		FC269979198B12A100F4D7A7 /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		FC26997A198B12A100F4D7A7 /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@2x.png"; sourceTree = "<group>"; };
+		FC26997B198B12A100F4D7A7 /* 5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5@2x.png"; sourceTree = "<group>"; };
+		FC269989198B15D000F4D7A7 /* ofertaappSeccionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofertaappSeccionViewController.h; sourceTree = "<group>"; };
+		FC26998A198B15D000F4D7A7 /* ofertaappSeccionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ofertaappSeccionViewController.m; sourceTree = "<group>"; };
 		FC89FF7C198AFFE300B8E0A4 /* ofertaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofertaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC89FF81198AFFE300B8E0A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +84,9 @@
 		FC89FFA6198AFFE400B8E0A4 /* ofertaappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ofertaappTests-Info.plist"; sourceTree = "<group>"; };
 		FC89FFA8198AFFE400B8E0A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC89FFAA198AFFE400B8E0A4 /* ofertaappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ofertaappTests.m; sourceTree = "<group>"; };
+		FC89FFB4198B03A300B8E0A4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC89FFB6198B04FD00B8E0A4 /* xx.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xx.mp4; sourceTree = "<group>"; };
+		FC89FFB8198B0B2000B8E0A4 /* Cogestor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cogestor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC89FFB5198B03A300B8E0A4 /* AVFoundation.framework in Frameworks */,
 				FC89FF82198AFFE300B8E0A4 /* CoreGraphics.framework in Frameworks */,
 				FC89FF84198AFFE300B8E0A4 /* UIKit.framework in Frameworks */,
 				FC89FF80198AFFE300B8E0A4 /* Foundation.framework in Frameworks */,
@@ -79,6 +114,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC269969198B11EE00F4D7A7 /* parallax */ = {
+			isa = PBXGroup;
+			children = (
+				FC269972198B126400F4D7A7 /* MPViewController.h */,
+				FC269973198B126400F4D7A7 /* MPViewController.m */,
+				FC26995E198B11E700F4D7A7 /* MPSkewedCell.m */,
+				FC26995F198B11E700F4D7A7 /* MPSkewedParallaxLayout.h */,
+				FC269960198B11E700F4D7A7 /* MPSkewedParallaxLayout.m */,
+				FC269961198B11E700F4D7A7 /* MPSkewedTransitionLayout.h */,
+				FC269962198B11E700F4D7A7 /* MPSkewedTransitionLayout.m */,
+				FC269963198B11E700F4D7A7 /* UIView+Frame.h */,
+				FC269964198B11E700F4D7A7 /* UIView+Frame.m */,
+				FC26995D198B11E700F4D7A7 /* MPSkewedCell.h */,
+			);
+			name = parallax;
+			sourceTree = "<group>";
+		};
+		FC269976198B12A100F4D7A7 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				FC269977198B12A100F4D7A7 /* 1@2x.png */,
+				FC269978198B12A100F4D7A7 /* 2@2x.png */,
+				FC269979198B12A100F4D7A7 /* 3@2x.png */,
+				FC26997A198B12A100F4D7A7 /* 4@2x.png */,
+				FC26997B198B12A100F4D7A7 /* 5@2x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		FC89FF73198AFFE300B8E0A4 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +165,7 @@
 		FC89FF7E198AFFE300B8E0A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC89FFB4198B03A300B8E0A4 /* AVFoundation.framework */,
 				FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */,
 				FC89FF81198AFFE300B8E0A4 /* CoreGraphics.framework */,
 				FC89FF83198AFFE300B8E0A4 /* UIKit.framework */,
@@ -112,13 +177,19 @@
 		FC89FF85198AFFE300B8E0A4 /* ofertaapp */ = {
 			isa = PBXGroup;
 			children = (
+				FC269976198B12A100F4D7A7 /* img */,
+				FC89FFB6198B04FD00B8E0A4 /* xx.mp4 */,
+				FC89FFB8198B0B2000B8E0A4 /* Cogestor.png */,
 				FC89FF8E198AFFE300B8E0A4 /* ofertaappAppDelegate.h */,
 				FC89FF8F198AFFE300B8E0A4 /* ofertaappAppDelegate.m */,
 				FC89FF91198AFFE300B8E0A4 /* Main.storyboard */,
 				FC89FF94198AFFE300B8E0A4 /* ofertaappViewController.h */,
 				FC89FF95198AFFE300B8E0A4 /* ofertaappViewController.m */,
 				FC89FF97198AFFE300B8E0A4 /* Images.xcassets */,
+				FC269969198B11EE00F4D7A7 /* parallax */,
 				FC89FF86198AFFE300B8E0A4 /* Supporting Files */,
+				FC269989198B15D000F4D7A7 /* ofertaappSeccionViewController.h */,
+				FC26998A198B15D000F4D7A7 /* ofertaappSeccionViewController.m */,
 			);
 			path = ofertaapp;
 			sourceTree = "<group>";
@@ -229,7 +300,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC269983198B12A100F4D7A7 /* 4@2x.png in Resources */,
+				FC269982198B12A100F4D7A7 /* 3@2x.png in Resources */,
+				FC269984198B12A100F4D7A7 /* 5@2x.png in Resources */,
+				FC269980198B12A100F4D7A7 /* 1@2x.png in Resources */,
+				FC89FFB9198B0B2000B8E0A4 /* Cogestor.png in Resources */,
+				FC269981198B12A100F4D7A7 /* 2@2x.png in Resources */,
 				FC89FF98198AFFE300B8E0A4 /* Images.xcassets in Resources */,
+				FC89FFB7198B04FD00B8E0A4 /* xx.mp4 in Resources */,
 				FC89FF8A198AFFE300B8E0A4 /* InfoPlist.strings in Resources */,
 				FC89FF93198AFFE300B8E0A4 /* Main.storyboard in Resources */,
 			);
@@ -250,8 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC269967198B11E700F4D7A7 /* MPSkewedTransitionLayout.m in Sources */,
+				FC26998B198B15D000F4D7A7 /* ofertaappSeccionViewController.m in Sources */,
 				FC89FF96198AFFE300B8E0A4 /* ofertaappViewController.m in Sources */,
+				FC269966198B11E700F4D7A7 /* MPSkewedParallaxLayout.m in Sources */,
+				FC269968198B11E700F4D7A7 /* UIView+Frame.m in Sources */,
+				FC269965198B11E700F4D7A7 /* MPSkewedCell.m in Sources */,
 				FC89FF8C198AFFE300B8E0A4 /* main.m in Sources */,
+				FC269975198B126400F4D7A7 /* MPViewController.m in Sources */,
 				FC89FF90198AFFE300B8E0A4 /* ofertaappAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +541,7 @@
 				FC89FFB0198AFFE400B8E0A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC89FFB1198AFFE400B8E0A4 /* Build configuration list for PBXNativeTarget "ofertaappTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +550,7 @@
 				FC89FFB3198AFFE400B8E0A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
