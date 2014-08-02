@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ofertaappSeccionViewController : UIViewController
+@interface ofertaappSeccion1ViewController : UIViewController
+- (IBAction)salir:(id)sender;
 
 @end

@@ -9,7 +9,9 @@
 #import "MPViewController.h"
 #import "MPSkewedCell.h"
 #import "MPSkewedParallaxLayout.h"
-#import "ofertaappSeccionViewController.h"
+#import "ofertaappSeccion1ViewController.h"
+#import "ofertaappSeccion2ViewController.h"
+
 
 static NSString *kCell=@"cell";
 
@@ -25,11 +27,11 @@ static NSString *kCell=@"cell";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.navigationController setNavigationBarHidden:NO];
+    [self.navigationController setNavigationBarHidden:YES];
+
 
 
     choosed=-1;
-    self.navigationController.navigationBarHidden=YES;
 
 #ifndef PARALLAX_ENABLED
     // you can use that if you don't need parallax
@@ -103,11 +105,22 @@ static NSString *kCell=@"cell";
 
     NSLog(@"item %li",(long)indexPath.item);
     
-    ofertaappSeccionViewController *seccionController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Seccion"];
+    ofertaappSeccion1ViewController *seccion1Controller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Seccion1"];
     
-    [self.navigationController pushViewController:seccionController animated:YES];
+    ofertaappSeccion2ViewController *seccion2Controller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Seccion2"];
+    
+    
     
 
+    if(indexPath.item==0){
+        [self.navigationController pushViewController:seccion1Controller animated:YES];
+    }
+    
+    if(indexPath.item==1){
+        [self.navigationController pushViewController:seccion2Controller animated:YES];
+    }
+    
+    
    /* NSInteger bk=choosed;
     
     if(choosed==-1)
