@@ -31,9 +31,9 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozp-eA-c8M">
-                                        <rect key="frame" x="53" y="355" width="215" height="132"/>
+                                        <rect key="frame" x="62" y="393" width="198" height="73"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="Ingresar.png">
+                                        <state key="normal" backgroundImage="Ingresar2.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -52,9 +52,25 @@
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                 </attributes>
                                             </fragment>
-                                            <fragment content="APP">
+                                            <fragment content="A">
                                                 <attributes>
-                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <color key="NSColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="24" name="HelveticaNeue-Bold"/>
+                                                    <font key="NSOriginalFont" size="24" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="P">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="24" name="HelveticaNeue-Bold"/>
+                                                    <font key="NSOriginalFont" size="24" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="P">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <font key="NSFont" size="24" name="HelveticaNeue-Bold"/>
                                                     <font key="NSOriginalFont" size="24" name="HelveticaNeue-Bold"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
@@ -97,7 +113,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoanspe.png" translatesAutoresizingMaskIntoConstraints="NO" id="FWr-A0-iTK">
-                                <rect key="frame" x="56" y="91" width="315" height="94"/>
+                                <rect key="frame" x="49" y="114" width="222" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vul-Fj-Ls2">
@@ -323,8 +339,8 @@
     </scenes>
     <resources>
         <image name="EVALUAR.png" width="413" height="236"/>
-        <image name="Ingresar.png" width="1003" height="530"/>
-        <image name="logoanspe.png" width="550" height="135"/>
+        <image name="Ingresar2.png" width="380" height="162"/>
+        <image name="logoanspe.png" width="344" height="135"/>
         <image name="personajes.png" width="273" height="96"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

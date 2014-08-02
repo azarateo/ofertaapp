@@ -73,7 +73,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [self.avplayer play];
+    [self.avplayer pause];
 }
 
 - (void)dealloc

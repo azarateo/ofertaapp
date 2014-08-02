@@ -19,7 +19,6 @@
 		FC269984198B12A100F4D7A7 /* 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC26997B198B12A100F4D7A7 /* 5@2x.png */; };
 		FC26998B198B15D000F4D7A7 /* ofertaappSeccion1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26998A198B15D000F4D7A7 /* ofertaappSeccion1ViewController.m */; };
 		FC7EDBD2198C5ABC006DE2C4 /* personajes.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDBD1198C5ABC006DE2C4 /* personajes.png */; };
-		FC7EDBD4198C6762006DE2C4 /* logoanspe.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDBD3198C6762006DE2C4 /* logoanspe.png */; };
 		FC7EDBD6198C6F2E006DE2C4 /* a1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDBD5198C6F2E006DE2C4 /* a1@2x.png */; };
 		FC7EDBD8198C70DC006DE2C4 /* EVALUAR.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDBD7198C70DC006DE2C4 /* EVALUAR.png */; };
 		FC7EDBDF198C7B1F006DE2C4 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDBDC198C7B1F006DE2C4 /* 1@2x.png */; };
@@ -28,6 +27,8 @@
 		FC7EDBE3198C7BDE006DE2C4 /* Ingresar.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDBE2198C7BDE006DE2C4 /* Ingresar.png */; };
 		FC7EDC2A198C828D006DE2C4 /* ofertaappSeccion2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7EDC29198C828D006DE2C4 /* ofertaappSeccion2ViewController.m */; };
 		FC7EDC2D198C84B7006DE2C4 /* ofertaappSeccion2aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7EDC2C198C84B7006DE2C4 /* ofertaappSeccion2aViewController.m */; };
+		FC7EDC31198C86EC006DE2C4 /* logoanspe.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDC30198C86EC006DE2C4 /* logoanspe.png */; };
+		FC7EDC33198C8709006DE2C4 /* Ingresar2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDC32198C8709006DE2C4 /* Ingresar2.png */; };
 		FC89FF80198AFFE300B8E0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */; };
 		FC89FF82198AFFE300B8E0A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF81198AFFE300B8E0A4 /* CoreGraphics.framework */; };
 		FC89FF84198AFFE300B8E0A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89FF83198AFFE300B8E0A4 /* UIKit.framework */; };
@@ -76,7 +77,6 @@
 		FC269989198B15D000F4D7A7 /* ofertaappSeccion1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofertaappSeccion1ViewController.h; sourceTree = "<group>"; };
 		FC26998A198B15D000F4D7A7 /* ofertaappSeccion1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ofertaappSeccion1ViewController.m; sourceTree = "<group>"; };
 		FC7EDBD1198C5ABC006DE2C4 /* personajes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personajes.png; sourceTree = "<group>"; };
-		FC7EDBD3198C6762006DE2C4 /* logoanspe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoanspe.png; sourceTree = "<group>"; };
 		FC7EDBD5198C6F2E006DE2C4 /* a1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a1@2x.png"; path = "../a1@2x.png"; sourceTree = "<group>"; };
 		FC7EDBD7198C70DC006DE2C4 /* EVALUAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EVALUAR.png; sourceTree = "<group>"; };
 		FC7EDBDC198C7B1F006DE2C4 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
@@ -87,6 +87,8 @@
 		FC7EDC29198C828D006DE2C4 /* ofertaappSeccion2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ofertaappSeccion2ViewController.m; sourceTree = "<group>"; };
 		FC7EDC2B198C84B7006DE2C4 /* ofertaappSeccion2aViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofertaappSeccion2aViewController.h; sourceTree = "<group>"; };
 		FC7EDC2C198C84B7006DE2C4 /* ofertaappSeccion2aViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ofertaappSeccion2aViewController.m; sourceTree = "<group>"; };
+		FC7EDC30198C86EC006DE2C4 /* logoanspe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoanspe.png; sourceTree = "<group>"; };
+		FC7EDC32198C8709006DE2C4 /* Ingresar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ingresar2.png; sourceTree = "<group>"; };
 		FC89FF7C198AFFE300B8E0A4 /* ofertaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofertaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC89FF7F198AFFE300B8E0A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC89FF81198AFFE300B8E0A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -208,8 +210,9 @@
 				FC269976198B12A100F4D7A7 /* img */,
 				FC89FFB6198B04FD00B8E0A4 /* xx.mp4 */,
 				FC89FFB8198B0B2000B8E0A4 /* Cogestor.png */,
-				FC7EDBD3198C6762006DE2C4 /* logoanspe.png */,
 				FC7EDBD1198C5ABC006DE2C4 /* personajes.png */,
+				FC7EDC32198C8709006DE2C4 /* Ingresar2.png */,
+				FC7EDC30198C86EC006DE2C4 /* logoanspe.png */,
 				FC89FF8E198AFFE300B8E0A4 /* ofertaappAppDelegate.h */,
 				FC89FF8F198AFFE300B8E0A4 /* ofertaappAppDelegate.m */,
 				FC89FF91198AFFE300B8E0A4 /* Main.storyboard */,
@@ -336,6 +339,8 @@
 			files = (
 				FC7EDBDF198C7B1F006DE2C4 /* 1@2x.png in Resources */,
 				FC7EDBD2198C5ABC006DE2C4 /* personajes.png in Resources */,
+				FC7EDC31198C86EC006DE2C4 /* logoanspe.png in Resources */,
+				FC7EDC33198C8709006DE2C4 /* Ingresar2.png in Resources */,
 				FC269983198B12A100F4D7A7 /* 4@2x.png in Resources */,
 				FC269982198B12A100F4D7A7 /* a3@2x.png in Resources */,
 				FC269984198B12A100F4D7A7 /* 5@2x.png in Resources */,
@@ -346,7 +351,6 @@
 				FC7EDBD8198C70DC006DE2C4 /* EVALUAR.png in Resources */,
 				FC269981198B12A100F4D7A7 /* a2@2x.png in Resources */,
 				FC89FF98198AFFE300B8E0A4 /* Images.xcassets in Resources */,
-				FC7EDBD4198C6762006DE2C4 /* logoanspe.png in Resources */,
 				FC7EDBE0198C7B1F006DE2C4 /* 2@2x.png in Resources */,
 				FC7EDBD6198C6F2E006DE2C4 /* a1@2x.png in Resources */,
 				FC89FFB7198B04FD00B8E0A4 /* xx.mp4 in Resources */,
